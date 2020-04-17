@@ -1,0 +1,68 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+
+/*Decimal to binary*/
+.section{
+	background: linear-gradient(rgba(213, 0, 125, 0.8), rgba(213, 0, 125, 0.8)), url(../images/bg-01.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.convert-container{
+	width: 780px;
+	height: 530px;
+	background: #fff;
+	border-radius: 10px;
+}
+.title{
+	text-align: center;
+	padding: 70px 90px;
+}
+.title h2{
+	font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+}
+.contact-form{
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+.contact-item{
+	margin-bottom: 10px;
+}
+.contact-item input[type="number"]{
+	width: 100%;
+	padding: 15px 0px;
+	border: none;
+	border-bottom: 2px solid #adadad;
+}
+.contact-item input::placeholder{
+	font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+}
+.contact-item input[type="submit"]{
+	display: table;
+	margin: auto;
+	margin-top: 45px;
+	background: linear-gradient(-135deg, #d5007d, #e53935, #d5007d, #e53935);
+	color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 20px 45px;
+    cursor: pointer;
+    border: none;
+}
